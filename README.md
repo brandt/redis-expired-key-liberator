@@ -1,5 +1,10 @@
 # redis-expired-key-liberator
 
+Release thy keys from the bonds of this mortal datastore!
+
+
+## Description
+
 A simple script that reads through a given RDB file and performs a GET on every expired key it finds.  This prompts Redis to garbage collect that item.
 
 This was built as a workaround for a situation where the [Redis lazy garbage collection algorithm][] was not freeing memory fast enough.
