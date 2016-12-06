@@ -15,6 +15,11 @@ Install dependencies with:
 It expects the standard Redis unix domain socket to be available to perform the GET requests.
 
 
+## Warning
+
+We ended up not needing this script, so consider it untested.
+
+
 ## Supported Types
 
 Currently, not all types are supported.  That's mainly because my use case didn't require anything more than the basics.  Support for other types can probably be added without too much difficulty.
